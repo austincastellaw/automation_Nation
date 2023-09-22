@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Source and destination directory paths
+source_folder="/Users/austinc/Desktop/source_folder"
+destination_folder="/Users/austinc/Desktop/destination_folder"
+
+# Use the 'cp' command to copy all files from the source to the destination
+cp -r "$source_folder"/* "$destination_folder"
+
+echo "Files moved from $source_folder to $destination_folder"
